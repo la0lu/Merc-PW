@@ -1,0 +1,222 @@
+0:00
+Now it's time to create the tasks. You can create the task here on the button
+0:06
+create task. It's going to show you some fields. You have to check if you uh are
+0:13
+on the right spot. So you have all these fields here. So we're going through each
+0:19
+one. So first of all the repo name. So the name of the repository that you're
+0:24
+going to uh create your task for the agents on the pre-work. We are not
+0:29
+running the agents itself themselves but we are going to only create the tasks
+0:36
+and create all the rationale so we understand that this task is good enough
+0:42
+we have a high bar for our client and before the sprint starts. So this is
+0:47
+really important for us to uh fill with all the details that we we have to
+0:54
+select right. So the repo name and the repo URL. If you get the instruction
+0:59
+docs, you'll see that the repository that you have to choose for the task
+1:06
+must be a large code base. It must be uh a public accessible codebase repository.
+1:14
+So for instance here I'm going to use grado. I don't know if you know grado. I
+1:18
+use it a lot when I when I work with my machine learning uh and data products.
+1:25
+And here we have the repo URL for the repo URL. It's not the SSH is not the
+1:31
+URL for uh a commit or uh a branch is the public available
+1:39
+uh root URL for the repository. So I already access this. You can check the
+1:45
+instruction docs as well because uh we have a list of forbidden uh repositories
+1:51
+that you should avoid, right? you must avoid and grado is not one of them. So
+1:56
+uh you can use gradu if you want just a suggestion of course can you have to use
+2:01
+a repository that you really really know then here you have the primary language
+2:06
+I know that this is python for instance and here we have to check the task type
+2:12
+everything is on instruction docs here I'm just showing how to fill everything
+2:16
+so for instance I want to create a new component for uh gradio I would create
+2:22
+here as a feature development then the domains means I have to check all that
+2:27
+apply. So for instance, I know that radio has a back backend part and a
+2:32
+front end part. So it's a full stack. I have to select both here. So you have to
+2:37
+select all that apply. So imagine that you are working on back end and front
+2:42
+end. And actually you're going to deploy this as well. You could put this uh you
+2:46
+could select devops as well if you want. For the interaction mode is the type of
+2:53
+the task. So the interactive and the async. The interactive basically are
+2:58
+going to have many interactions with the model. So your prompt is going to be
+3:04
+complex but not with a lot of details. So we're going to put like you would uh
+3:10
+ask an agent on a daily basis for your work. Uh but the the complexity of
+3:17
+course that should be there because here we have a really high bar for having
+3:22
+complex um original prompts. Uh so the opening prompts should be complex for
+3:28
+both interactive and async but for interactive we are going to have many
+3:34
+interactions with the models and we don't need to add a lot of details and
+3:40
+it's different when we we select the async because the async is like a
+3:45
+oneshot. You have to create a really detailed prompt that you're going to
+3:51
+send to the models. Not right now because here is the pre-work once we are
+3:55
+on the in the sprint. So once we are in the sprint, we are going to send this uh
+4:01
+opening prompt that should be really detailed for async because it's going to
+4:05
+be one shot. You're going to have only one interaction with the agents. So it
+4:10
+should be complex and well detailed. For the interactive it should be complex but
+4:16
+not that well detailed because we are going to have many interactions with the
+4:20
+model. So here I'm going to uh select interactive. Now we are going to create
+4:27
+the original prompt. Here is the task that you are going to use when you are
+4:33
+in the sprint. And this is something that we are going to analyze not only
+4:38
+the reviewers. We have an auto QC here quality check. And of course the
+4:43
+reviewer is going to check if the opening prompt prompt is complex enough
+4:47
+is a good task. enterprise uh like uh like you would you would use on a daily
+4:53
+basis for a really senior software developer. So here the opening prompt
+4:59
+you want for instance the exact ticket style prompt the model will receive
+5:04
+write it like a real ticket or slack message uh state the goal the goal
+5:09
+constraints leave reasonable details open this is for mainly interactive for
+5:15
+async it needs to be really detailed so here is interactive I'm going to copy
+5:21
+this here you won't do this as I'm doing here because it's just a placeholder So
+5:27
+we can move on. So here we have the opening prompt. Then we go to a really
+5:32
+uh important thing for the pre-work that is the rationale. For the rationale we
+5:37
+have three questions. First of all, is your task difficult and why? So this is
+5:44
+really important. Your task should be difficult. And here you're going to use
+5:49
+all your rationale to explain why this task is complex even for frontier models
+5:55
+because we are going to work with really frontier models should be complex. So
+6:00
+the first one why is this this complex why the task is really complex even for
+6:05
+frontier models. Uh the other thing that you must do you have to choose a good
+6:11
+code base that you have really understanding
+6:17
+uh that you really understand about so you need to know not only to use the the
+6:23
+repo for instance for grad for instance so I'm using gradio a lot but I should
+6:28
+know not only use gradio but I should know the code base and all the
+6:34
+architecture at least the high level architecture. This is something that the
+6:38
+reviewer is going to check and also the auto quality check can check this. So if
+6:43
+you only say that oh gradial is a really good place to start when you are
+6:48
+creating a data product because it's easy to create a front end this is not
+6:53
+going to be enough. You have to add the architectural details. So you must uh
+6:58
+have all the details here. So first one complexity, the second one to understand
+7:03
+the codebase and the third one is what what gaps and what limitations what
+7:09
+issues that you know about this repo because this is really important to
+7:14
+understand and to have tasks that are going to be uh really enterprise level.
+7:20
+So uh when you are when you're working on your daily job, you have you know the
+7:26
+code base, you know the details and you know the limitations and you're going to
+7:30
+try to surpass this limitations and to fill those gaps. So this is really
+7:35
+important for you to understand. So this rationale is the main is the core of the
+7:41
+pre-work because this is why we created the pre-work to have good task and to
+7:47
+know that uh you as an expert uh know what you're doing and you are creating a
+7:55
+really complex task and you understand the code base that you selected for this
+8:00
+task and you know the gaps and the issues and all the limitations that the
+8:06
+repository story has. So you have to fill everything. You have to check that
+8:09
+you have a limit uh of characters here. You have to surpass you have to have to
+8:15
+be bigger than 200 and here as well. Of course that I'm just creating
+8:20
+placeholders here. Uh another one and here the nonissue. So So now we
+8:27
+finished. So we finished all the feeling the repo name the part of the repository
+8:33
+the main u characteristics of the repository in tech terms here is about
+8:41
+your task here is the opening prompt and the rationale that's really important
+8:46
+for you to feel. So you have to take care here because it's really important
+8:51
+to have a good and complex uh original prompt a task right you can even check
+9:00
+here for the limitations and create the the task uh regarding some limitations
+9:07
+and some gaps one thing that is really important that I'm going to show is uh
+9:12
+going back here how do I know if the repository is good enough I use to for
+9:19
+this to count the the files. So uh so here we can use for instance I have a
+9:26
+grad here of course that I already cloned the repository here and I can use
+9:31
+okay gradio and it's going to show the file
+9:35
+count. So now that I can see for instance only let me check. So we have a
+9:41
+lot of Python code, Python files here. We have a lot of
+9:47
+uh let me see TypeScript here as well. So you must check if your code base is
+9:54
+good enough. If we if your codebase uh has more than 200 code files. So for
+10:02
+instance, we have a lot of SVGs here. SV SVGs is not code file. So if you don't
+10:09
+have 200 actual code files, the task will be rejected, right? So it's really
+10:15
+important for you to do this. So this is how you fill all the fields. Of course
+10:21
+that here I put a lot of placeholders. You're going to create your actual
+10:25
+prompt and your actual rationale.

@@ -1,0 +1,101 @@
+Now we have something that is really really important to do because it's
+0:04
+automated QC. So we have a quality check here and it's an automated version. So
+0:10
+the auto QC is automated uh automated read on this task across the uh seven
+0:16
+quality dimensions. While drafting you can press run to
+0:20
+selfch check before submitting advisory only. It does not change the task
+0:25
+status. A human reviewer still decides. So this is something that is going to
+0:30
+help you to check the overall quality for something that should be uh
+0:37
+rejected. So if you have an auto you see that says that the code base is not
+0:41
+adequate or saying that your prompt is not adequate or that your code base is
+0:45
+not explained well is something that is really good for you because you're not
+0:49
+going to be rejected uh as uh as long as you don't fix those. But it's important
+0:55
+for you to understand that even if the auto QC has has everything green for
+1:00
+you, this is not 100% that the test is going to be approved because we have
+1:05
+human reviewers that are going to check this as well. So this is a good thing
+1:08
+for you to run right here. So just click here and you're going to run and expect
+1:13
+uh of course that here I have a bunch of rubbish. It's going to fail everything.
+1:17
+But it's really important for you to read everything that AutoQC suggests you
+1:22
+to fix and you have to fix this before you want to uh push this over. Now uh
+1:29
+there's a a novelty here that even when the autocy fails at something you can
+1:36
+try and dispute this with uh with a rationale for you right and you can say
+1:43
+why you do not agree with the autoc. Please don't use this as something that
+1:52
+uh you that this this does not uh replace that you should check and try to
+1:58
+fix everything right only if it's something that is you're really certain
+2:02
+enough that the autoc is not right then you can create something uh to have uh a
+2:10
+rationale here right so we have of course that mine is just a bunch of
+2:14
+rubbish and you can uh put here the RQC miss something right so for instance we
+2:22
+have prompt and task design opening prompt
+2:26
+quality is not good opening prompt is contextf free placeholder Lauren ISO
+2:31
+test so it just saw that my opening prompt is rubbish the model the mode
+2:36
+alignment uh it's not good because you have interacted in a sync as well it's
+2:41
+not frontier model difficulty uh success criteria and deliverables
+2:47
+They're not good task type and accuracy. So it's a complete mess, right? My task.
+2:51
+So I should fix everything and run again. Once you fix everything, you can
+2:56
+put here and run again. It's going to run again, right? So uh you can check
+3:02
+everything here and you should read everything that that fails here. Of
+3:06
+course, if you want to read what you passed as well, just for you to
+3:09
+understand what are the criteria and here you can spot any articy uh missing
+3:15
+something, right? And now if I try to submit this, it's not going to work
+3:19
+because the OQC is a mess, right? So you should what? Get the thumbs down and
+3:24
+have everything written because you are disputing. So I'm going to have here
+3:28
+since my my mind is a mess. So I'm going to thumbs down. I don't like it.
+3:36
+I don't like it. Save.
+3:42
+Thumbs down. I don't like it. You're never going to do this, right? You're
+3:46
+going to fix everything for yourself. But I'm just showing here what you
+3:51
+should do if you do not agree with AutoQC, but you should agree with most
+3:57
+of what it's stating and try and fix instead of disputing. Right? So, I'm
+4:03
+just doing this so you can see here. Going to this. So, I think it's easier
+4:09
+for me to fix everything than having all the thumbs down.
+4:14
+Uh, so I am disputing everything because I am really smart and I'm better than
+4:21
+AI. Just kidding, of course. So now I think
+4:26
+we should be ready to submit. Okay.
